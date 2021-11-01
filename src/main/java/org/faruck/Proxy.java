@@ -7,6 +7,7 @@ public class Proxy implements Servidor {
     }
     public void setServidor(Servidor serv) {
         ///// COMPLETAR ////////
+        this.serv= serv;
     }
     public Servidor getServidor() {
         return serv;
