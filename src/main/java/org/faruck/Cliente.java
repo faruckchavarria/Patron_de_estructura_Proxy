@@ -1,5 +1,6 @@
 package org.faruck;
 
+
 import java.io.*;
 public class Cliente {
     private static BufferedReader entrada = new BufferedReader(new

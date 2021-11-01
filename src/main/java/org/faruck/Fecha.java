@@ -1,4 +1,7 @@
 package org.faruck;
+
+//import java.time.LocalDate;
+
 //Clase para manejar fechas (DD/MM/AAAA)
 import java.util.*;
 class Fecha {
@@ -14,11 +17,20 @@ class Fecha {
     }
     public Fecha(String cadenaFecha) {
 
-///// COMPLETAR ////////
+        StringTokenizer st = new StringTokenizer(cadenaFecha, "/");
+        String dd = st.nextToken();
+        String mm = st.nextToken();
+        String aa = st.nextToken();
+        this.dia = Integer.parseInt(dd);
+        this.mes = Integer.parseInt(mm);
+        this.año = Integer.parseInt(aa);
     }
     public Fecha() {
+        Calendar hoy = Calendar.getInstance();
+        año = hoy.get(Calendar.YEAR);
+        mes = hoy.get(Calendar.MONTH) + 1;
+        dia = hoy.get(Calendar.DAY_OF_MONTH);
 
-///// COMPLETAR ////////
     }
     //métodos
     @Override
