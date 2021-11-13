@@ -51,3 +51,15 @@
 
 ### Se crea la clase de cliente que nos permitira poder usar el servidor de proxy para crear la liksta de ficheros, bajarlos y listarlos, este conformado de muchas condisionales, que nos daran una iteracion de salir, o seleccinar en todas y cada una de las opciones que tiene el servidor.
 <img src="capturas\17.PNG"/>
+
+# Resultados
+<img src="capturas\18.PNG"/>
+
+## Subimos un fichero
+<img src="capturas\19.PNG"/>
+
+## Listamos los ficheros
+<img src="capturas\20.PNG"/>
+
+## Bajamos el fichero
+<img src="capturas\21.PNG"/>
