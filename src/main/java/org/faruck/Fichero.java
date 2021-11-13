@@ -13,7 +13,7 @@ public class Fichero {
 
     // constructor
     public Fichero(String nombre) {
-        
+
         this.nombre=nombre;
     }
 
